@@ -1,0 +1,15 @@
+{
+  "name": "jamstack-fcc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:heyitsuzair/jamstack-fcc.git",
+  "author": "Muhammad Uzair <uzairdevil354123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build":"npx @11ty/eleventy",
+    "start":"npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}
